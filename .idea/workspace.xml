@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="01470a96-b527-4e09-8e59-ef500da50569" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/hg/game/Game.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/hg/game/Game.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/hg/game/GameManager.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/../../../Genisys_v16.0" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1iyA53zLguYGaHZqgjOYxl4YsNy" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Genisys_v16.0" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="01470a96-b527-4e09-8e59-ef500da50569" name="Default Changelist" comment="" />
+      <created>1602869278453</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602869278453</updated>
+      <workItem from="1602869280772" duration="6523000" />
+    </task>
+    <task id="LOCAL-00001" summary="Create basic Game | Create basic creator/editor for game">
+      <created>1602871241112</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602871241113</updated>
+    </task>
+    <task id="LOCAL-00002" summary="check redundant initialize">
+      <created>1602874061965</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602874061965</updated>
+    </task>
+    <task id="LOCAL-00003" summary="check redundant initialize | create function &quot;save&quot; in PlayerGame (editor and creator)">
+      <created>1602874535536</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602874535536</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Edit Game.php (add times - add border deathmatch - set times)">
+      <created>1602876033002</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602876033002</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Create basic Game | Create basic creator/editor for game" />
+    <MESSAGE value="check redundant initialize" />
+    <MESSAGE value="check redundant initialize | create function &quot;save&quot; in PlayerGame (editor and creator)" />
+    <MESSAGE value="Edit Game.php (add times - add border deathmatch - set times)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edit Game.php (add times - add border deathmatch - set times)" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="390" y="26" key="#PHP" timestamp="1602869312416">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="390" y="26" key="#PHP/0.0.1366.768@0.0.1366.768" timestamp="1602869312416" />
+    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1602876020079">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1602876020079" />
+    <state x="462" y="138" key="FileChooserDialogImpl" timestamp="1602869309928">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="462" y="138" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1602869309928" />
+    <state x="518" y="307" key="NewPhpFileDialog" timestamp="1602870696579">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="518" y="307" key="NewPhpFileDialog/0.0.1366.768@0.0.1366.768" timestamp="1602870696579" />
+    <state x="275" y="116" key="Vcs.Push.Dialog.v2" timestamp="1602874560171">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="275" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1602874560171" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1602874860634">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1602874860634" />
+  </component>
+</project>

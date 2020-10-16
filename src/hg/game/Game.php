@@ -55,6 +55,9 @@ class Game
         $this->levelName = $levelName;
         $this->slots = $slots;
         $this->spawns = $spawns;
+
+        $this->getLevel()->setTime(1200);
+        $this->getLevel()->stopTime();
     }
 
     /**
