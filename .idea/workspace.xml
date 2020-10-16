@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01470a96-b527-4e09-8e59-ef500da50569" name="Default Changelist" comment="" />
+    <list default="true" id="01470a96-b527-4e09-8e59-ef500da50569" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/plugin.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +52,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602869278453</updated>
-      <workItem from="1602869280772" duration="6853000" />
+      <workItem from="1602869280772" duration="7161000" />
     </task>
     <task id="LOCAL-00001" summary="Create basic Game | Create basic creator/editor for game">
       <created>1602871241112</created>
@@ -87,7 +89,21 @@
       <option name="project" value="LOCAL" />
       <updated>1602876350641</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Update GAMES_FOLDER_NAME">
+      <created>1602876847822</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1602876847822</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Update plugin.yml">
+      <created>1602876948521</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1602876948521</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,7 +119,9 @@
     <MESSAGE value="check redundant initialize | create function &quot;save&quot; in PlayerGame (editor and creator)" />
     <MESSAGE value="Edit Game.php (add times - add border deathmatch - set times)" />
     <MESSAGE value="set time day" />
-    <option name="LAST_COMMIT_MESSAGE" value="set time day" />
+    <MESSAGE value="Update GAMES_FOLDER_NAME" />
+    <MESSAGE value="Update plugin.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update plugin.yml" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -113,10 +131,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="390" y="26" key="#PHP/0.0.1366.768@0.0.1366.768" timestamp="1602869312416" />
-    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1602876344717">
+    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1602876941271">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1602876344717" />
+    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1602876941271" />
     <state x="462" y="138" key="FileChooserDialogImpl" timestamp="1602869309928">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -125,10 +143,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="518" y="307" key="NewPhpFileDialog/0.0.1366.768@0.0.1366.768" timestamp="1602870696579" />
-    <state x="275" y="116" key="Vcs.Push.Dialog.v2" timestamp="1602876616594">
+    <state x="275" y="116" key="Vcs.Push.Dialog.v2" timestamp="1602876857961">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="275" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1602876616594" />
+    <state x="275" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1602876857961" />
     <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1602874860634">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

@@ -8,7 +8,8 @@ use pocketmine\plugin\PluginBase;
  * Class Loader
  * @package hg
  */
-class Loader extends PluginBase {
+class Loader extends PluginBase
+{
 
     /** @var string */
     const GAMES_FOLDER_NAME = 'games';
