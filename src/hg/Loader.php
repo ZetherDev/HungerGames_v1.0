@@ -11,7 +11,7 @@ use pocketmine\plugin\PluginBase;
 class Loader extends PluginBase {
 
     /** @var string */
-    const GAMES_FOLDER_NAME = 'games/';
+    const GAMES_FOLDER_NAME = 'games';
 
     public function onEnable()
     {
