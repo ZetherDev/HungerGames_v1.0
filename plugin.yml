@@ -1,0 +1,5 @@
+name: HungerGames
+version: 1.0.0-ALPHA
+author: JuqnGOOD
+api: [2.0.0]
+main: hg\Loader
