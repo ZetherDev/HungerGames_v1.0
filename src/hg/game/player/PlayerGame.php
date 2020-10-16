@@ -11,15 +11,15 @@ use pocketmine\math\Vector3;
 class PlayerGame
 {
 
-    /** @var string */
+    /** @var string|null */
     private $levelMap;
     /** @var int */
-    private $slots = 12;
+    private $slots; // Default is 12 slots
     /** @var array */
     private $spawns = [];
 
     /** @var string */
-    private $mode = 'creator';
+    private $mode;
 
     /**
      * Creator constructor.
@@ -28,7 +28,7 @@ class PlayerGame
      * @param string $mode
      * @param array $spawns
      */
-    public function __construct(string $levelMap, int $slots = 12, string $mode = 'creator', array $spawns = [])
+    public function __construct(string $levelMap, int $slots, string $mode = 'creator', array $spawns = [])
     {
         $this->levelMap = $levelMap;
         $this->slots = $slots;
@@ -40,7 +40,7 @@ class PlayerGame
     }
 
     /**
-     * @return string
+     * @return string|null
      */
     public function getLevelMap(): string
     {
@@ -86,5 +86,14 @@ class PlayerGame
     public function setSpawn(int $slot, Vector3 $vector3)
     {
         $this->slots[$slot] = $vector3;
+    }
+
+    public function save()
+    {
+        return [
+            'level' => $this->getLevelMap(),
+            'slots' => $this->getSlots(),
+            'spawns' => $this->getSpawns()
+        ];
     }
 }

@@ -10,7 +10,10 @@ use pocketmine\plugin\PluginBase;
  */
 class Loader extends PluginBase {
 
-    const FOLDER_MAPS = 'mapas';
+    /** @var string */
+    const MAPS_FOLDER_NAME = 'mapas/';
+    /** @var string */
+    const GAMES_FOLDER_NAME = 'games/';
 
     public function onEnable()
     {
@@ -18,7 +21,8 @@ class Loader extends PluginBase {
 
         /** Folder Config */
         @mkdir($this->getDataFolder());
-        @mkdir($this->getDataFolder() . self::FOLDER_MAPS);
+        @mkdir($this->getDataFolder() . self::MAPS_FOLDER_NAME);
+        @mkdir($this->getDataFolder() . self::GAMES_FOLDER_NAME);
         $this->saveDefaultConfig();
     }
 }
