@@ -90,6 +90,12 @@ class PlayerGame
 
     public function save()
     {
+        if ($this->getLevelMap() == null)
+            return "The map was not selected";
+
+        if (count($this->getSpawns()) < $this->getSlots())
+            return "You have not placed all the spawns";
+
         return [
             'level' => $this->getLevelMap(),
             'slots' => $this->getSlots(),

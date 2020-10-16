@@ -12,9 +12,9 @@ class Game
     /** @var string */
     private $levelName;
     /** @var int */
-    private $slots = 12;
+    private $slots;
     /** @var array */
-    private $spawns = [];
+    private $spawns;
 
     /**
      * Game constructor.

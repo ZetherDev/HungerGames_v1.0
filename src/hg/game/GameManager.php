@@ -76,6 +76,17 @@ class GameManager
     }
 
     /**
+     * @param string $level
+     */
+    public function removeGame(string $level)
+    {
+        /** Delete game in variable $games */
+        unset($this->games[$level]);
+        /** Delete config */
+        @unlink($this->getPlugin()->getDataFolder() . Loader::GAMES_FOLDER_NAME . DIRECTORY_SEPARATOR . $level . '.yml');
+    }
+
+    /**
      * void
      */
     private function loadGames() {
